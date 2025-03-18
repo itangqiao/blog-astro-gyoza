@@ -4,27 +4,107 @@ description: 这是一份站长的自述报告，请查收。
 comments: false
 ---
 
-## 关于 Gyoza
+![](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/ring.webp)
 
-Gyoza 是一个使用 Astro 和 React 开发的博客主题。Gyoza 借鉴了 [Shiro](https://github.com/innei/Shiro) 和一些网站的设计。
+## Hi! This is Tony ⁺
 
-Gyoza 的核心理念是简洁，快速，可爱。
+一个热爱科技生活, 喜欢折腾自己的人。
 
-- 在 [Markdown 示例](/posts/markdown) 中展示了 Markdown 的渲染样式
-- 可以前往 [Gyoza 使用指南](/posts/guide) 了解 Gyoza 的使用方法
+## MBTI
 
-Gyoza 是开源的，如果你对这个项目感兴趣，欢迎前往 Gyoza 的 [Github 仓库](https://github.com/lxchapu/astro-gyoza) 来提 Issue 或者 PR。
+INTJ / INFP
 
-## 关于作者
+## 生活爱好
 
-我是 lxchapu，是一名前端开发者，喜欢各种有趣的东西。欢迎访问我的个人网站 [www.lxchapu.com](https://www.lxchapu.com)，了解关于我更多的信息。
+### 服务器
 
-## 致谢
+- 云服务器
+- [x] 本地应用服务器
+- [x] 群晖 NAS 服务器（920+）
 
-感谢以下项目：
+### 电影
 
-- [Astro](https://astro.build/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Jotai](https://jotai.org/)
+每年看数十部电影剧集
+
+> 影音资料库折腾记录:
+>
+> - 原始阶段：下载电影到 Oracle 硬盘盒，一个一个手动命名
+> - 第一阶段：本地搭建 emby、jellyfin、plex, tMM 影片信息刮削
+> - 第二阶段：放弃手动影音库。改为动态识别,下载影片后 infuse 自动识别影片信息
+> - 第三阶段：Infuse 连公益服/公费服 emby，解锁数十万部影片，解放双手，再不用操心字幕
+>   - 再搭建 alist + 小雅，解锁超低播放延迟, Infuse 直连 alist 的 webdav
+>   - 转存到阿里云盘, Infuse 直连阿里云盘
+> - 第四阶段：小雅已无意义, 飞牛影视接替 Emby 转码和外网使用
+
+### 苹果产品
+
+- iPhone X
+- iPhone 12
+- iPad mini 5
+- AirPods Pro
+- Apple Watch S6
+- Mac Studio (2021)
+- MacBook Pro 16 (2019)
+
+> 现在说不上爱好者，想要吐槽的地方太多了~
+
+### 其他数码产品
+
+- IQOO TWS 1
+- IQOO TWS 2
+- 若干智能小米家居产品 . . .
+
+### 喜欢记录
+
+- 第一阶段：麦库记事、网易云笔记，开启了云笔记
+- 第二阶段：印象笔记、Typora、Wolai、Notion，开始使用 Markdown 记录
+- 第三阶段：搭建思源笔记，开启数据私有化保护
+- 第四阶段：Obsidian + 苹果备忘录 + 滴答清单 + 多维表格，从 all-in-one 改为 one-to-one
+- 第五阶段：Obsidian(PARA) + 苹果备忘录(碎片收集) + 滴答清单(GTD) + Memos(生活随笔)
+
+> 专注软件最擅长的功能，拆分复杂需求。
+
+### 业余养花
+
+现只养小叶昙花, 每年开数百朵以上
+
+### 业余跑步
+
+2023年跑量大约 600km
+
+### 业余健身
+
+- 哑铃
+- 卧推凳
+- 引体上升架
+
+## 创意游戏爱好者
+
+- PlayStation 5
+- Switch OLED
+
+### 通关游戏
+
+- 黑神话悟空
+- 艾尔登法环 & DLC
+- 地平线: 零之曙光 & DLC 、西之绝境
+- 双人成行
+- 对马岛之魂
+- 马里奥: 奥德赛
+- 刺客信条: 奥德赛
+- 古墓丽影 9 10
+- 往日不再
+- 孤岛惊魂 3、4、6
+- 最后的生还者
+- 塞尔达传说: 旷野之息、王国之泪
+
+## 关于本站
+
+### 版权声明
+
+- 本站所有内容均采用 [署名-非商业性使用-禁止演绎 4.0 国际](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh) 许可协议，未经授权请勿转载。
+
+### 免责声明
+
+- 本站所有内容不代表任何组织的立场和意见，也不构成任何形式的建议或指导。
+- 本站对内容的真实性、完整性、准确性和及时性不作任何保证，也不承担任何法律责任。

@@ -1,7 +1,7 @@
 {
   "site": {
-    "url": "https://gyoza.lxchapu.com",
-    "title": "Gyoza",
+    "url": "https://itangqiao.top",
+    "title": "Tony ⁺",
     "description": "这是一个使用 Astro 和 React 开发的博客主题。",
     "keywords": "Gyoza,blog,Astro,theme,lxchapu,博客主题",
     "lang": "zh-CN",
@@ -9,59 +9,110 @@
     "appleTouchIcon": "/apple-touch-icon.png"
   },
   "author": {
-    "name": "lxchapu",
-    "twitterId": "@lxchapu",
-    "avatar": "https://s2.loli.net/2024/04/30/ozsnuS5Ihf3xMBG.webp"
+    "name": "Tony ⁺",
+    "twitterId": "@itangqiao",
+    "avatar": "https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/avator.webp"
   },
   "hero": {
-    "name": "Gyoza",
-    "bio": "A static blog template build with Astro and React.",
-    "description": "Clean, Cute, Fast.",
+    "name": "Tony ⁺",
+    "bio": "博客迁移中 . . . ",
+    "description": "心可以碎，手不能停。",
     "socials": [
       {
         "name": "Github",
         "icon": "icon-github",
-        "url": "https://github.com/lxchapu/astro-gyoza",
+        "url": "https://github.com/itangqiao",
         "color": "rgb(24, 23, 23)"
       },
       {
         "name": "X",
         "icon": "icon-x",
-        "url": "https://twitter.com/lxchapu",
+        "url": "https://twitter.com/itangqiao",
         "color": "rgb(36, 46, 54)"
       },
       {
         "name": "Email",
         "icon": "icon-mail",
-        "url": "mailto:lxchapu@outlook.com",
+        "url": "mailto:itangqiao@gmail.com",
         "color": "rgb(212, 70, 56)"
+      },
+      {
+        "name": "Spotify",
+        "icon": "icon-spotify",
+        "url": "https://open.spotify.com/playlist/6xWFxt9YRPl6WOPHUZo8qu",
+        "color": "#61D16A"
       }
     ],
     "yiyan": "当第一颗卫星飞向大气层外，我们便以为自己终有一日会征服宇宙。"
   },
   "color": {
     "accent": [
-      { "light": "#F55555", "dark": "#FCCF31" },
-      { "light": "#0396FF", "dark": "#ABDCFF" },
-      { "light": "#fb7287", "dark": "#99D8CF" },
-      { "light": "#F072B6", "dark": "#FFF886" },
-      { "light": "#9F44D3", "dark": "#E2B0FF" },
-      { "light": "#FF6666", "dark": "#A1CCD1" },
-      { "light": "#F6416C", "dark": "#838BC6" },
-      { "light": "#32CCBC", "dark": "#90F7EC" },
-      { "light": "#33A6B8", "dark": "#79F1A4" },
-      { "light": "#F55555", "dark": "#FCCF31" }
+      {
+        "light": "#F55555",
+        "dark": "#FCCF31"
+      },
+      {
+        "light": "#0396FF",
+        "dark": "#ABDCFF"
+      },
+      {
+        "light": "#fb7287",
+        "dark": "#99D8CF"
+      },
+      {
+        "light": "#F072B6",
+        "dark": "#FFF886"
+      },
+      {
+        "light": "#9F44D3",
+        "dark": "#E2B0FF"
+      },
+      {
+        "light": "#FF6666",
+        "dark": "#A1CCD1"
+      },
+      {
+        "light": "#F6416C",
+        "dark": "#838BC6"
+      },
+      {
+        "light": "#32CCBC",
+        "dark": "#90F7EC"
+      },
+      {
+        "light": "#33A6B8",
+        "dark": "#79F1A4"
+      },
+      {
+        "light": "#F55555",
+        "dark": "#FCCF31"
+      }
     ],
     "bg": {
-      "primary": { "light": "#ffffff", "dark": "#1c1c1e" },
-      "secondary": { "light": "#f4f4f5", "dark": "#27272a" }
+      "primary": {
+        "light": "#ffffff",
+        "dark": "#1c1c1e"
+      },
+      "secondary": {
+        "light": "#f4f4f5",
+        "dark": "#27272a"
+      }
     },
     "text": {
-      "primary": { "light": "#373a3c", "dark": "#ffffff" },
-      "secondary": { "light": "#71717a", "dark": "#d1d5db" }
+      "primary": {
+        "light": "#373a3c",
+        "dark": "#ffffff"
+      },
+      "secondary": {
+        "light": "#71717a",
+        "dark": "#d1d5db"
+      }
     },
     "border": {
-      "primary": { "light": "#e4e4e7", "dark": "#3f3f46" }
+      "primary": {
+        "light": "#e4e4e7",
+        "dark": "#3f3f46"
+      }
     }
   },
   "menus": [
@@ -81,6 +132,11 @@
       "icon": "icon-flask"
     },
     {
+      "name": "知识库",
+      "link": "/docs",
+      "icon": "icon-pen"
+    },
+    {
       "name": "关于",
       "link": "/about",
       "icon": "icon-ghost"
@@ -95,13 +151,16 @@
     "perPage": 10
   },
   "footer": {
-    "startTime": "2024-04-14T00:00:00Z"
+    "startTime": "2022-04-22T00:00:00Z"
   },
   "waline": {
     "serverURL": "https://waline.lxchapu.com"
   },
+  "artalk": {
+    "serverURL": "https://artalk.casa.itangqiao.top:33333"
+  },
   "sponsor": {
-    "wechat": "https://object.lxchapu.com/bed%2F2024%2F0507_6e3e8f73df2d4e6d.webp"
+    "wechat": ""
   },
   "analytics": {
     "enable": false,

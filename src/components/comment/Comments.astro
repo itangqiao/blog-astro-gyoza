@@ -1,8 +1,8 @@
 ---
-import { Waline } from './Waline'
-import { waline } from '@/config.json'
+import { ArtalkComponent } from './Artalk'
+import { artalk } from '@/config.json'
 ---
 
 <div>
-  {waline.serverURL && <Waline {...waline} client:visible />}
+  {artalk.serverURL && <ArtalkComponent {...artalk} client:visible />}
 </div>

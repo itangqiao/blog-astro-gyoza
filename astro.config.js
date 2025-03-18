@@ -17,6 +17,7 @@ import { site } from './src/config.json'
 import remarkMath from 'remark-math'
 import rehypeKatex from 'rehype-katex'
 import swup from '@swup/astro'
+import rehypeCustomImageWidth from './src/plugins/rehypeCustomImageWidth' // 引入插件
 
 // https://astro.build/config
 export default defineConfig({
@@ -45,6 +46,7 @@ export default defineConfig({
       rehypeCodeBlock,
       rehypeCodeHighlight,
       rehypeTableBlock,
+      rehypeCustomImageWidth,
     ],
     remarkRehype: { footnoteLabel: '参考', footnoteBackLabel: '返回正文' },
   },
