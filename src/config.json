@@ -37,10 +37,16 @@
         "color": "rgb(212, 70, 56)"
       },
       {
-        "name": "Spotify",
-        "icon": "icon-spotify",
-        "url": "https://open.spotify.com/playlist/6xWFxt9YRPl6WOPHUZo8qu",
-        "color": "#61D16A"
+        "name": "douban",
+        "icon": "icon-douban",
+        "url": "https://www.douban.com/people/itangqiao/?_i=2349028sP8Wrdg",
+        "color": "#4C9245"
+      },
+      {
+        "name": "telegram",
+        "icon": "icon-telegram",
+        "url": "https://t.me/itangqiao",
+        "color": "#3B97E0"
       }
     ],
     "yiyan": "当第一颗卫星飞向大气层外，我们便以为自己终有一日会征服宇宙。"
@@ -130,11 +136,6 @@
       "name": "项目",
       "link": "/projects",
       "icon": "icon-flask"
-    },
-    {
-      "name": "知识库",
-      "link": "/docs",
-      "icon": "icon-pen"
     },
     {
       "name": "关于",
