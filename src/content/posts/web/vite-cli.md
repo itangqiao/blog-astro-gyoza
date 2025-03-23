@@ -81,7 +81,7 @@ client 目录结构
 
 ## 开始搭建静态 Web 服务器
 
-我们搭建的 `vue-cli` 是基于 `Node` 的命令行工具, 指定 `Node` 环境的安装位置
+当前搭建的 `vue-cli` 基于 `Node`, 需要指定 `Node` 环境的安装位置
 
 ```ts
 // server/src/index.js
@@ -152,13 +152,13 @@ Progress: resolved 17, reused 17, downloaded 0, added 0, done
 </body>
 ```
 
-![img_0523213306.webp](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/img_0523213306.webp)
+![](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/img_0523213306.webp)
 
 控制台报错是正常情况
 
-![img_0523213217.webp](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/img_0523213217.webp)
+![](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/img_0523213217.webp)
 
-浏览器无法识别从 `node_modules` 导入的第三方模块, 而默认路径都包含 `"/"` , 浏览器没识别到, 所以抛出了异常
+浏览器无法识别从 `node_modules` 导入第三方模块, 浏览器没识别到, 然后抛出了异常
 
 ```ts
 // 直接导入的方式, 无法被直接识别
@@ -205,7 +205,7 @@ app.use(async (ctx, next) => {
 })
 ```
 
-启动后发现路径引入路径已经发生了变化, 但是还找不到模块引入的真实路径
+启动后引入路径已经发生了变化, 但是还找不到模块引入的真实路径, 还需要配置
 
 ![img_0523230810.webp](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/img_0523230810.webp)
 
@@ -238,7 +238,7 @@ app.use(async (ctx, next) => {
 
 ![img_0524010258.webp](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/img_0524010258.webp)
 
-可以看见无法识别 `SFC`, 需要编译 `template` 模板
+以下提示浏览器无法识别 `SFC`, 需要编译 `template` 模板
 
 ![img_0524011714.webp](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/img_0524011714.webp)
 
@@ -309,7 +309,7 @@ app.use(async (ctx, next) => {
 // 2. 修改第三方模块地址
 ```
 
-模板已经渲染, 浏览器没有 `process` , 被阻断了; 就差这一步
+模板已经渲染, 浏览器没有 `process` , 被阻断了
 
 ![img_0524025236.webp](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/img_0524025236.webp)
 
