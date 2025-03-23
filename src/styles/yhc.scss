@@ -1,22 +1,19 @@
-@use "sass:math";
+@use 'sass:math';
 
 $quantity: 15;
 
 .container {
-  position: relative;  /* 确保父元素有定位 */
-  // width: 1500px;         /* 设置父元素的宽度 */
-  // height: 500px;        /* 设置父元素的高度 */
-  // margin: 0 auto;       /* 可选，居中父元素 */
+  position: relative;
 }
 
 .firefly {
   z-index: 10000;
-  position: absolute;   /* 相对于父元素定位 */
+  position: absolute;
   left: 50%;
   top: 50%;
   width: 0.4vw;
   height: 0.4vw;
-  margin: -0.2vw 0 0 -0.2vw;  /* 微调，使得火虫中心对齐 */
+  margin: -0.2vw 0 0 -0.2vw;
   animation: ease 200s alternate infinite;
   pointer-events: none;
 
@@ -40,17 +37,18 @@ $quantity: 15;
     background: white;
     opacity: 0;
     box-shadow: 0 0 0vw 0vw yellow;
-    animation: drift ease alternate infinite, flash ease infinite;
+    animation:
+      drift ease alternate infinite,
+      flash ease infinite;
   }
 }
 
-// Randomize Fireflies Motion
 @for $i from 1 through $quantity {
-  $steps: math.random(12) * 20 + 16;  // Modified random range for steps
+  $steps: math.random(12) * 20 + 16;
   $rotationSpeed: math.random(10) + 8s;
-  $translateX: math.random(100) - 0;  // Generate a random translation range
-  $translateY: math.random(100) - 10;  // Generate a random translation range
-  $scale: math.div(math.random(75), 100) + 0.25;  // Modified scale calculation
+  $translateX: math.random(101) - 60;
+  $translateY: math.random(101) - 50;
+  $scale: (math.div(math.random(75), 100)) + 0.25;
 
   .firefly:nth-child(#{$i}) {
     animation-name: move#{$i};
@@ -60,14 +58,18 @@ $quantity: 15;
     }
 
     &::after {
-      animation-duration: #{$rotationSpeed}, #{math.random(6000) + 5000}ms;
-      animation-delay: 0ms, #{math.random(8000) + 500}ms;
+      animation-duration:
+        #{$rotationSpeed},
+        #{math.random(6000) + 5000}ms;
+      animation-delay:
+        0ms,
+        #{math.random(8000) + 500}ms;
     }
   }
 
   @keyframes move#{$i} {
     @for $step from 0 through $steps {
-      #{$step * (100 / $steps)}% {
+      #{($step * math.div(100, $steps)) * 1%} {
         transform: translateX(#{$translateX}vw) translateY(#{$translateY}dvh) scale(#{$scale});
       }
     }
@@ -75,12 +77,18 @@ $quantity: 15;
 }
 
 @keyframes drift {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes flash {
-  0%, 30%, 100% {
+  0%,
+  30%,
+  100% {
     opacity: 0;
     box-shadow: 0 0 0vw 0vw yellow;
   }
