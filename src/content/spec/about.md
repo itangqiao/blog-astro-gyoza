@@ -4,9 +4,7 @@ description: 这是一份站长的自述报告，请查收。
 comments: false
 ---
 
-![](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/ring.webp)
-
-## Hi! This is Tony ⁺
+## About me
 
 一个热爱科技生活, 喜欢折腾自己的人。
 
@@ -16,9 +14,9 @@ INTJ / INFP
 
 ## 生活爱好
 
-### 服务器
+### 折腾服务器
 
-- 云服务器
+- <del>云服务器</del>
 - [x] 本地应用服务器
 - [x] 群晖 NAS 服务器（920+）
 
@@ -72,7 +70,7 @@ INTJ / INFP
 
 2023年跑量大约 600km
 
-### 业余健身
+### 业余健身设施
 
 - 哑铃
 - 卧推凳
@@ -88,6 +86,7 @@ INTJ / INFP
 - 黑神话悟空
 - 艾尔登法环 & DLC
 - 地平线: 零之曙光 & DLC 、西之绝境
+- PS5 说明书: 宇宙机器人
 - 双人成行
 - 对马岛之魂
 - 马里奥: 奥德赛

@@ -10,7 +10,7 @@ export function ArtalkComponent({ serverURL }: { serverURL: string }) {
       el: ref.current!, // 挂载的 DOM 元素
       pageKey: '/post/1', // 固定链接
       pageTitle: 'new精致的生活', // 页面标题
-      darkMode: true,
+      darkMode: 'auto',
       site: 'new精致的生活',
       server: 'https://artalk.casa.itangqiao.top:33333', // 后端地址
     })

@@ -19,8 +19,6 @@ date: 2024-12-21
 
 ![](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/202412270100931.webp)
 
-![](https://fastly.picsum.photos/id/866/250/400.jpg?hmac=--CQLmtrZmlJdCpAgTS1KtT02LXokXOWhe-6bPJoz1Q)
-
 ## 运营商以什么理由收回呢？
 
 1. 以跑PCDN缘由收回
@@ -71,7 +69,7 @@ date: 2024-12-21
 
 继续在公众号投诉，同样的操作，同样无果。直接朝我脸甩来这张公告，老用户也一样。我说没有这个服务我只能注销，客服一点也没有挽留，就说他那边就可以立即办理，好吧，一点挽留都没有，把我整不会了😁
 
-![](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/202412270055914.webp)
+![|300](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/202412270055914.webp)
 
 此时我几乎放弃了，我开始与深圳特有的天威宽带交涉，我以前用过 一直都挺稳的，他们的资费几乎便宜一半，而且还没有电信这么多套路，最重要的是，新户也有公网IP，准备迁移过去。当然我知道迁过去肯定会有一些代价，不可能这么顺。
 
@@ -79,19 +77,19 @@ date: 2024-12-21
 
 第二天中国电信联系了我，叫我等一周，向上提交我的诉求。
 
-![](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/202412270056012.web)
+![](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/202412270056012.webp)
 
 ---
 
 处理结果： 拿回了，签名，立即生效。
 
-![](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/202412270057577.webp)
+![|300](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/202412270057577.webp)
 
 ---
 
 收到短信，似乎只是延长了一年，我问客服，理论上一年后自动续，但是谁又能真的保证呢？ 先这样吧，政策收紧已经不可逆了。
 
-![](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/202412270057676.webp)
+![|500](https://gcore.jsdelivr.net/gh/itangqiao/pic@main/blog/202412270057676.webp)
 
 ## 写到最后
 
@@ -103,5 +101,5 @@ date: 2024-12-21
 
 ## 题外话
 
-1. 我尝试使用IPv6, 用起来效果基本一样, 理论上 IPv6 普及率已经挺高了, 手机网络也没有任何问题, 但是部分亲友宽带没有IPv6, 这时候就没办法用了。
-2. 电信光猫默认超级管理密码, 基本无效了... 只能自己破解, 最后拿到了超级管理员密码, 这个可以自己操作, 不难, 也可以去淘宝付费破解。后来发现这一步操作可有可无, 之前的后台配置已经很完善了。
+1. 我尝试使用IPv6, 用起来效果基本一样。 理论上 IPv6 普及率已经挺高了, 手机网络也没有任何问题, 但是部分亲友宽带没有IPv6, 这时候就没办法用了。
+2. 网上分享的电信光猫默认超级管理密码, 基本无效了... 只能自己破解, 最后拿到了超级管理员密码, 这个可以自己操作, 不难, 也可以去淘宝付费破解。后来发现这一步操作可有可无, 之前的后台配置已经很完善了。

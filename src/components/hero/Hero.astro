@@ -4,7 +4,24 @@ import { SocialList } from './SocialList'
 import Highlight from '@/components/Highlight.astro'
 ---
 
-<div class="lg:-mt-16 lg:h-dvh lg:min-h-[720px]">
+<div class="lg:-mt-16 lg:h-dvh lg:min-h-[720px] effect">
+  <div class="container">
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+  </div>
   <div
     class="relative max-w-[1300px] mx-auto h-full px-4 grid lg:grid-cols-2 items-center justify-items-center"
   >
@@ -17,7 +34,7 @@ import Highlight from '@/components/Highlight.astro'
     </div>
     <div class="mt-20 lg:mt-0">
       <div
-        class="size-[200px] lg:size-[300px] rounded-full overflow-hidden border border-primary bg-zinc-100 dark:bg-zinc-800"
+        class="size-[100px] lg:size-[200px] rounded-full overflow-hidden border border-primary bg-zinc-100 dark:bg-zinc-800"
       >
         <img class="size-full" src={author.avatar} alt="Site owner avatar" loading="lazy" />
       </div>
@@ -33,3 +50,8 @@ import Highlight from '@/components/Highlight.astro'
     </div>
   </div>
 </div>
+<style lang="scss" scoped>
+  .effect {
+    @import '@/styles/yhc.scss';
+  }
+</style>

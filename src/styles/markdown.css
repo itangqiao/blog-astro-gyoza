@@ -164,3 +164,8 @@
 .markdown h4 + * {
   @apply mt-0;
 }
+
+.markdown h2 {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #cbcdc055;
+}

@@ -61,3 +61,15 @@ html.gray {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #555;
 }
+
+/* 字体格式调整 */
+body p {
+  line-height: 1.8 !important;
+}
+body {
+  letter-spacing: 0.5px;
+}
+
+p + ul {
+  margin-top: -1rem !important;
+}
