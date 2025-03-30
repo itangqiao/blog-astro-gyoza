@@ -133,8 +133,8 @@
       "icon": "icon-archive"
     },
     {
-      "name": "项目",
-      "link": "/projects",
+      "name": "知识库",
+      "link": "/knowledges",
       "icon": "icon-flask"
     },
     {

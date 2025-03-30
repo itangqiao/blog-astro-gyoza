@@ -8,7 +8,6 @@ export function ArtalkComponent({ serverURL }: { serverURL: string }) {
   useEffect(() => {
     const artalk = Artalk.init({
       el: ref.current!, // 挂载的 DOM 元素
-      pageKey: '/post/1', // 固定链接
       pageTitle: 'new精致的生活', // 页面标题
       darkMode: 'auto',
       site: 'new精致的生活',
