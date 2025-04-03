@@ -1,8 +1,3 @@
-interface Memo {
-  createTime: string // ISO 格式日期
-  content: string // 备忘录内容
-}
-
 const result = await fetch('https://memos.casa.itangqiao.top:33333/api/v1/memos')
 const data = await result.json()
 const memos = await data.memos
@@ -27,7 +22,7 @@ const formatContent = (content: string) => {
 const MemoList = () => {
   return (
     <div>
-      {memos.map((memo, index) => (
+      {memos.map((memo: any, index: number) => (
         <div className="border-solid border-b border-gray-800 mb-10" key={index}>
           <p className="text-sm text-gray-500">{formatDate(memo.createTime)}</p>
           {/* <p className="text-base pb-2">{memo.content}</p> */}
@@ -38,7 +33,7 @@ const MemoList = () => {
           ></div>
           {memo.resources && (
             <div className="flex flex-nowrap gap-2">
-              {memo.resources.map((resource, idx) => (
+              {memo.resources.map((resource: any, idx: number) => (
                 <img
                   className="inline w-[49%] rounded-2xl"
                   key={idx}
