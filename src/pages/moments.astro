@@ -1,0 +1,22 @@
+---
+import PageLayout from '@/layouts/PageLayout.astro'
+import Highlight from '@/components/Highlight.astro'
+import MemoList from '@/components/getMemos.tsx'
+import { Comments } from '@/components/comment'
+
+---
+
+<PageLayout title="日常">
+  <div class="max-w-[1100px] mx-auto px-4 py-16">
+    <header class="space-y-4 mb-8">
+      <h1 class="text-4xl font-bold">
+        <Highlight>随笔</Highlight>
+      </h1>
+      <hr class="w-[100px] border-primary" />
+      <MemoList />
+    </header>
+    {(<Comments />)}
+  </div>
+</PageLayout>
+
+<style></style>

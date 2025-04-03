@@ -1,7 +1,10 @@
 ---
+// 导入 Astro 类型和方法
 import type { GetStaticPaths } from 'astro'
 import type { CollectionEntry } from 'astro:content'
 import { getCollection } from 'astro:content'
+
+// 导入自定义布局和组件
 import MarkdownLayout from '@/layouts/MarkdownLayout.astro'
 import PageLayout from '@/layouts/PageLayout.astro'
 import Highlight from '@/components/Highlight.astro'
@@ -13,6 +16,8 @@ import { ReadingProgress } from '@/components/post/ReadingProgress'
 import { PostToc } from '@/components/post/PostToc'
 import { Comments } from '@/components/comment'
 
+// 生成静态路径的函数
+// 为每个特定的规范文档生成一个路径
 export const getStaticPaths = (async () => {
   const specList = await getCollection('spec')
 
@@ -24,18 +29,24 @@ export const getStaticPaths = (async () => {
   }))
 }) satisfies GetStaticPaths
 
+// 定义 Props 接口
 interface Props {
   md: CollectionEntry<'spec'>
 }
 
+// 从 Astro.props 中解构出 md
 const { md } = Astro.props
 
+// 渲染 Markdown 内容并获取 headings 和 Content
 const { headings, Content } = await md.render()
 
+// 判断是否使用 PageLayout 布局
 const isPageLayout = ['friends', 'projects'].includes(md.slug)
+// 判断 Markdown 内容是否为空
 const isMdContentEmpty = md.body?.trim().length === 0
 ---
 
+<!-- 根据 isPageLayout 决定使用不同的布局 -->
 {
   isPageLayout ? (
     <PageLayout title={md.data.title} description={md.data.description}>

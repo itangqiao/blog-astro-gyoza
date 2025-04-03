@@ -138,6 +138,11 @@
       "icon": "icon-flask"
     },
     {
+      "name": "日常",
+      "link": "/moments",
+      "icon": "icon-archive"
+    },
+    {
       "name": "关于",
       "link": "/about",
       "icon": "icon-ghost"
