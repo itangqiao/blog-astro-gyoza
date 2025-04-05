@@ -174,8 +174,8 @@
       "measurementId": ""
     },
     "umami": {
-      "serverUrl": "",
-      "websiteId": ""
+      "serverUrl": "https://umami.casa.itangqiao.top:33333",
+      "websiteId": "dad5f713-56fa-4bdb-a7ab-5d0a9aca0de6"
     },
     "microsoftClarity": {
       "projectId": ""
