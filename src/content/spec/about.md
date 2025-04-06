@@ -50,14 +50,14 @@ INTJ / INFP
 
 - IQOO TWS 1
 - IQOO TWS 2
-- 若干智能小米家居产品 . . .
+- 若干小米智能家居产品 . . .
 
 ### 喜欢记录
 
-- 第一阶段：麦库记事、网易云笔记，开启了云笔记
-- 第二阶段：印象笔记、Typora、Wolai、Notion，开始使用 Markdown 记录
-- 第三阶段：搭建思源笔记，开启数据私有化保护
-- 第四阶段：Obsidian + 苹果备忘录 + 滴答清单 + 多维表格，从 all-in-one 改为 one-to-one
+- 第一阶段：麦库记事、有道云笔记。开启了云笔记
+- 第二阶段：印象笔记、Typora、Wolai、Notion。开始使用 Markdown 记录
+- 第三阶段：搭建思源笔记。开启数据私有化保护
+- 第四阶段：Obsidian + 苹果备忘录 + 滴答清单 + 多维表格，从 All-in-One 改为 One-to-One
 - 第五阶段：Obsidian(PARA) + 苹果备忘录(碎片收集) + 滴答清单(GTD) + Memos(生活随笔)
 
 > 专注软件最擅长的功能，拆分复杂需求。

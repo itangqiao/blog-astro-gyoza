@@ -15,7 +15,7 @@ import { Comments } from '@/components/comment'
       <hr class="w-[100px] border-primary" />
       <MemoList />
     </header>
-    {(<Comments />)}
+    {(<Comments client:only="react"/>)}
   </div>
 </PageLayout>
 

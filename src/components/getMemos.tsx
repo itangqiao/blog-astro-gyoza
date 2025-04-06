@@ -1,7 +1,7 @@
 const result = await fetch('https://memos.casa.itangqiao.top:33333/api/v1/memos')
 const data = await result.json()
 const memos = await data.memos
-
+console.log(memos);
 // 日期格式化函数
 const formatDate = (dateString: string) => {
   const date = new Date(dateString)
@@ -16,7 +16,10 @@ const formatDate = (dateString: string) => {
 
 // 将文本中的换行符替换为 <br /> 标签
 const formatContent = (content: string) => {
-  return content.replace(/\n/g, '<br />').replace(/-/g, '•')
+  return content
+    .replace(/\n/g, '<br />')
+    .replace(/-/g, '&nbsp;&nbsp;•&nbsp;')
+    .replace(/\t/g, '&nbsp;&nbsp;')
 }
 
 const MemoList = () => {
