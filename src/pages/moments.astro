@@ -13,9 +13,9 @@ import { Comments } from '@/components/comment'
         <Highlight>随笔</Highlight>
       </h1>
       <hr class="w-[100px] border-primary" />
-      <MemoList />
+      <MemoList client:only="react"/>
     </header>
-    {(<Comments client:only="react"/>)}
+    {(<Comments />)}
   </div>
 </PageLayout>
 
