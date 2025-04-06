@@ -2,7 +2,7 @@
 title: 博客访问速度优化
 date: 2024-05-05
 summary: 排查速度慢的原因 & 提升 Vercel 服务器访问速度
-category: 博客改进
+category: 博客
 tags: [博客, 性能优化, Vercel]
 ---
 
