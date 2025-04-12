@@ -37,14 +37,13 @@ INTJ / INFP
 ### 苹果产品
 
 - iPhone X
-- iPhone 12
+- ~~iPhone 12~~
+- iPhone 16 PM
 - iPad mini 5
 - AirPods Pro
 - Apple Watch S6
 - Mac Studio (2021)
 - MacBook Pro 16 (2019)
-
-> 现在说不上爱好者，想要吐槽的地方太多了~
 
 ### 其他数码产品
 
