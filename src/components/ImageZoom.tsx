@@ -9,7 +9,7 @@ import '../styles/medium-zoom.css';
 export const ImageZoom = ({ src }: any) => (
   <Zoom>
     <img
-      className="object-contain w-auto h-full rounded-lg cursor-pointer object-fit dark:border-zinc-800 hover:opacity-80 max-h-80 grow"
+      className="object-contain w-auto h-full rounded-lg cursor-pointer object-fit dark:border-zinc-800 hover:opacity-80 max-h-80 grow max-w-80"
       src={src}
       loading="lazy"
       decoding="async"
