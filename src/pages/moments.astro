@@ -7,12 +7,12 @@ import { Comments } from '@/components/comment'
 ---
 
 <PageLayout title="日常">
-  <div class="max-w-[1100px] mx-auto px-4 py-16">
-    <header class="space-y-4 mb-8">
+  <div class="max-w-[900px] mx-auto px-4 py-16">
+    <header class="mb-8 space-y-2">
       <h1 class="text-4xl font-bold">
         <Highlight>随笔</Highlight>
       </h1>
-      <hr class="w-[100px] border-primary" />
+      <hr class="w-[80px] border-primary" />
       <MemoList client:only="react"/>
     </header>
     {(<Comments />)}
